@@ -1,0 +1,36 @@
+Mediapipe Holistic Pose Estimation and Face Detection
+This Python code demonstrates how to use the Mediapipe library to perform holistic pose estimation and face detection on an image. It utilizes the cv2 (OpenCV), numpy, and matplotlib libraries for image processing and visualization.
+
+Overview
+The code does the following:
+
+Imports the necessary libraries and modules, including OpenCV (cv2), NumPy (numpy), and Matplotlib (matplotlib), as well as the mediapipe library for pose estimation and face detection.
+
+Defines functions for Mediapipe detection and drawing styled landmarks on the image.
+
+Loads an image from the specified path and makes a copy of it for annotations.
+
+Utilizes the Mediapipe Holistic model for pose estimation and face detection.
+
+Draws styled landmarks on the image for face, pose, left hand, and right hand.
+
+Displays the annotated image and saves it to a file.
+
+Instructions
+Make sure you have the required libraries (cv2, numpy, matplotlib, and mediapipe) installed. You can typically install them using pip.
+
+Replace the image_path variable with the path to the image you want to process.
+
+Specify the annot_path variable to set the path for saving the annotated image.
+
+Run the code to perform pose estimation and face detection on the provided image.
+
+The annotated image will be displayed, and both the original and annotated images will be saved to the specified paths.
+
+Dependencies
+OpenCV (cv2)
+NumPy (numpy)
+Matplotlib (matplotlib)
+Mediapipe (mediapipe)
+License
+This code is provided under an open-source license. Please refer to the project's licensing information for details.
